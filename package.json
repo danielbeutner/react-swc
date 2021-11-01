@@ -1,0 +1,27 @@
+{
+  "name": "preact-swc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "serve": "sirv public --port 8080 --cors --single",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/cli": "^0.1.51",
+    "@swc/core": "^1.2.106",
+    "browserslist": "^4.17.5",
+    "chokidar": "^3.5.2",
+    "sirv-cli": "^1.0.14",
+    "swc-loader": "^0.1.15",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "preact": "^10.5.15",
+    "preact-router": "^3.2.1"
+  }
+}
