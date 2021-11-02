@@ -1,6 +1,5 @@
-import { render } from 'preact';
+import React from 'react';
+import ReactDOM from 'react-dom'
 import App from './components/app';
 
-export default App;
-
-render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

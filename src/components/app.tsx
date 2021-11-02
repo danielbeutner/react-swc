@@ -1,21 +1,9 @@
-import { FunctionalComponent, h } from 'preact';
-import { Route, Router } from 'preact-router';
+import React from 'react';
 
-import Home from '../routes/home';
-import Profile from '../routes/profile';
-import NotFoundPage from '../routes/notfound';
-import Header from './header';
-
-const App: FunctionalComponent = () => {
+const App = () => {
     return (
-        <div id="preact_root">
-            <Header />
-            <Router>
-                <Route path="/" component={Home} />
-                <Route path="/profile/" component={Profile} user="me" />
-                <Route path="/profile/:user" component={Profile} />
-                <NotFoundPage default />
-            </Router>
+        <div id="react_root">
+            Hello from React
         </div>
     );
 };
