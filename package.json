@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/danielbeutner/react-swc.git"
+  },
   "scripts": {
     "build": "NODE_ENV=production npx webpack",
     "dev": "webpack-dev-server",
